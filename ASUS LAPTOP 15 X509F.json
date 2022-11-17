@@ -1,0 +1,124 @@
+{
+    "hardware": {
+        "motherboardName": "ASUS LAPTOP 15 X509F",
+        "CPUInfo": {
+            "type": "Laptop",
+            "cpuName": "i5-8265U",
+            "cpuGeneration": "Whiskey Lake",
+            "inGraphics": "Intel® UHD Graphics for 8th Generation Intel® Processors"
+        },
+        "dGPUName": "NVIDIA GeForce MX230 GP108",
+        "WiFiCardName": "Intel Dual Band Wireless-AC 9461",
+        "ethernetName": "None",
+        "codec": {
+            "codecName": "ALC256",
+            "layoutID": "5 11 13 14 16 17 19 20 21 22 23 24 28 33 56 57 66 67 69 70 76 77 88 97 99"
+        },
+        "touchpad": "I2C",
+        "storageController": "NVMe",
+        "macVersion": 22
+    },
+    "config": {
+        "SSDTs": [
+            "SSDT-ALS0.aml",
+            "SSDT-ASUS.aml",
+            "SSDT-AWAC.aml",
+            "SSDT-AsusSMC-WhiskeyLake.aml",
+            "SSDT-EC-USBX.aml",
+            "SSDT-GPI0.aml",
+            "SSDT-LAN.aml",
+            "SSDT-MCHC.aml",
+            "SSDT-PLUG.aml",
+            "SSDT-PMCR.aml",
+            "SSDT-PNLF.aml",
+            "SSDT-SMBUS.aml",
+            "SSDT-XOSI.aml",
+            "SSDT-XPRW.aml"
+        ],
+        "BridgeMode": false,
+        "Patches": [
+            [
+                "(SMC) KBLU to XBLU",
+                "14264B424C5500",
+                "142658424C5500"
+            ],
+            [
+                "(PRW) GPRW to XPRW",
+                "4750525702",
+                "5850525702"
+            ],
+            [
+                "(PRW) UPRW to XPRW",
+                "5550525702",
+                "5850525702"
+            ],
+            [
+                "(OSI) OSID to XSID",
+                "OSID",
+                "XSID"
+            ],
+            [
+                "(OSI) OSIF to XSIF",
+                "OSIF",
+                "XSIF"
+            ],
+            [
+                "(OSI) _OSI to XOSI",
+                "_OSI",
+                "XOSI"
+            ]
+        ],
+        "Quirks": {
+            "DevirtualiseMmio": false,
+            "EnableWriteUnprotector": true,
+            "ProtectUefiServices": false,
+            "RebuildAppleMemoryMap": false,
+            "ResizeAppleGpuBars": -1,
+            "SetupVirtualMap": true,
+            "SyncRuntimePermissions": true
+        },
+        "DeviceProperties": {
+            "PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)": {
+                "disable-gpu": true,
+                "pci-aspm-default": "00000000"
+            },
+            "PciRoot(0x0)/Pci(0x2,0x0)": {
+                "AAPL,ig-platform-id": "0900A53E",
+                "device-id": "A53E0000",
+                "framebuffer-con1-alldata": "0101090000080000C701000002020A0000080000C7010000",
+                "framebuffer-con1-enable": "01000000",
+                "framebuffer-fbmem": "00009000",
+                "framebuffer-stolenmem": "00003001",
+                "hda-gfx": "6F6E626F6172642D31",
+                "framebuffer-patch-enable": "01000000"
+            }
+        },
+        "Kexts": [
+            "Lilu",
+            "VirtualSMC",
+            "WhateverGreen",
+            "AppleALC",
+            "USBToolBox",
+            "AirportItlwm22",
+            "IntelBluetoothFirmware",
+            "BrcmPatchRAM",
+            "NullEthernet",
+            "VoodooInput",
+            "BrightnessKeys",
+            "VoodooPS2",
+            "VoodooI2C",
+            "AsusSMC",
+            "CpuTscSync",
+            "NVMeFix",
+            "HibernationFixup"
+        ],
+        "Bootargs": "-v debug=0x100 keepsyms=1 -igfxblr -vi2c-force-polling alcid=66",
+        "PlatformInfo": {
+            "MLB": "C02952500CD0000UE",
+            "ROM": "04EA564F7C9D",
+            "SystemProductName": "MacBookPro15,3",
+            "SystemSerialNumber": "C02ZW0SSLVCG",
+            "SystemUUID": "7A553F19-D193-4533-8C3C-DB70913DDAFD"
+        }
+    }
+}
