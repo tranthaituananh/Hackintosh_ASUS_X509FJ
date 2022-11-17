@@ -40,3 +40,4 @@
 | ``Sleep``                     |✅|
 | ``Hotkeys``                   |✅|
 | ``GPU (MX230)``               |❌|
+| ``Fingerprint Sensor``        |❌|
