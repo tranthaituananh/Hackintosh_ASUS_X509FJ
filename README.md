@@ -7,7 +7,7 @@
 
 | OpenCore  | macOS                                            |
 | --------  | ------------------------------------------------ | 
-|   0.8.3   | Ventura 13.0.1 (Use SMBIOS ```MacBookPro15,3```) | 
+|   0.8.7   | Ventura 13.0.1 (Use SMBIOS ```MacBookPro15,3```) | 
 
 ## Configuration
 
