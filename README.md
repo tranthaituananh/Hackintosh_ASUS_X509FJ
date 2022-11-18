@@ -22,7 +22,7 @@
 
 ## Features
 
-|                               | OpenCore |
+|                               | Status |
 | ----------------------------- | :------: |
 | ``Wifi and Bluetooth``        |✅|
 | ``Audio``                     |✅|
