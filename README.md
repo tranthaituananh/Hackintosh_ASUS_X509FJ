@@ -1,6 +1,7 @@
 # ASUS-X509FJ (EJ053T)
 
-![Screenshot 2022-11-17 at 11 02 41 AM](https://user-images.githubusercontent.com/77098480/202352399-428b5567-8400-4d45-a415-b7547b8f46cf.png)
+![Screenshot 2022-11-18 at 1 22 35 PM](https://user-images.githubusercontent.com/77098480/202635837-44cfe9ef-d4d9-4be4-acd5-53dce5b9818c.png)
+
 
 ## Bootloader and macOS Versions
 
@@ -15,14 +16,14 @@
 | Computer model      | X509FJ (EJ053T) (MX230)                    |
 | Processor           | Intel Core i5-8265U Processor              |
 | Memory              | 4 GB onboard + 16GB Samsung DDR4 2400MHz   |
-| Hard Disk           | 500GB SSD (Samsung 980)                    |
+| Hard Disk           | Samsung SSD 980 500GB                      |
 | Integrated Graphics | Intel UHD Graphics 620                     |
 | Wireless Card       | Intel Dual Band Wireless-AC 9461           |
 
 ## Features
 
-|                               | OpenCore               |
-| ----------------------------- | :--------------------: |
+|                               | OpenCore |
+| ----------------------------- | :------: |
 | ``Wifi and Bluetooth``        |✅|
 | ``Audio``                     |✅|
 | ``Keyboard and Trackpad``     |✅|
