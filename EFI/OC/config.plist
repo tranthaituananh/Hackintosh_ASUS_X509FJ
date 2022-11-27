@@ -344,6 +344,8 @@
         <dict>
           <key>disable-gpu</key>
           <true/>
+          <key>pci-aspm-default</key>
+          <data>AAAAAA==</data>
         </dict>
         <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
         <dict>
@@ -351,8 +353,6 @@
 				<data>CQClPg==</data>
 				<key>device-id</key>
 				<data>pT4AAA==</data>
-				<key>#enable-lsocpn-support</key>
-				<data>AQAAAA==</data>
 				<key>force-online</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-enable</key>
@@ -1001,7 +1001,7 @@
         <key>PollAppleHotKeys</key>
         <false/>
         <key>ShowPicker</key>
-        <false/>
+        <string>Always</string>
         <key>TakeoffDelay</key>
         <integer>0</integer>
         <key>Timeout</key>
@@ -1086,7 +1086,7 @@
           <key>SystemAudioVolume</key>
           <data>Rg==</data>
           <key>boot-args</key>
-          <string>-igfxblr agdpmod=vit9696 -vi2c-force-polling alcid=66</string>
+          <string> -igfxblr -vi2c-force-polling agdpmod=vit9696 alcid=66</string>
           <key>csr-active-config</key>
           <data>7w8AAA==</data>
           <key>prev-lang:kbd</key>
@@ -1155,7 +1155,7 @@
         <key>AdviseFeatures</key>
         <false/>
         <key>MLB</key>
-        <string>C02952500CD0000UE</string>
+        <string>C02919130QX0000FB</string>
         <key>MaxBIOSVersion</key>
         <false/>
         <key>ProcessorType</key>
@@ -1169,9 +1169,9 @@
         <key>SystemProductName</key>
         <string>MacBookPro15,3</string>
         <key>SystemSerialNumber</key>
-        <string>C02ZW0SSLVCG</string>
+        <string>C02YPBZTLVCG</string>
         <key>SystemUUID</key>
-        <string>7A553F19-D193-4533-8C3C-DB70913DDAFD</string>
+        <string>45730084-A36D-439B-96DB-FE1B4CFA5D7E</string>
       </dict>
       <key>UpdateDataHub</key>
       <true/>
