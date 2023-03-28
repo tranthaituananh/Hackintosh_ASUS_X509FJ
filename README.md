@@ -5,14 +5,14 @@
 
 ## Bootloader and macOS Versions
 
-| OpenCore  | macOS                                            |
-| --------  | ------------------------------------------------ | 
-|   0.8.7   | Ventura 13.0.1 (Use SMBIOS ```MacBookPro15,3```) | 
+| OpenCore | macOS                                            |
+| -------- | ------------------------------------------------ |
+| 0.8.7    | Ventura 13.0.1 (Use SMBIOS `MacBookPro15,3`)     |
 
 ## Configuration
 
 | Specifications      | Detail                                     |
-| ------------------- | -------------------------------------------|
+| ------------------- | ------------------------------------------ |
 | Computer model      | X509FJ (EJ053T) (MX230)                    |
 | Processor           | Intel Core i5-8265U Processor              |
 | Memory              | 4 GB onboard + 16GB Samsung DDR4 2400MHz   |
@@ -22,23 +22,24 @@
 
 ## Features
 
-|                               | Status |
-| ----------------------------- | :------: |
-| ``Wifi and Bluetooth``        |✅|
-| ``Audio``                     |✅|
-| ``Keyboard and Trackpad``     |✅|
-| ``Headphone Jack``            |✅|
-| ``Graphics``                  |✅|
-| ``Battery``                   |✅|
-| ``Card Reader``               |✅|
-| ``Power Management``          |✅|
-| ``Multigesture Trackpad``     |✅|                                          
-| ``Webcam``                    |✅|
-| ``USB A Port``                |✅|
-| ``USB C Port``                |✅|
-| ``HDMI Port``                 |✅|
-| ``Facetime and iMessage``     |✅|
-| ``Sleep``                     |✅|
-| ``Hotkeys``                   |✅|
-| ``GPU (MX230)``               |❌|
-| ``Fingerprint Sensor``        |❌|
+| Feature                | Status |
+| ---------------------- | :----: |
+| Wifi and Bluetooth     |   ✅   |
+| Audio                  |   ✅   |
+| Keyboard and Trackpad  |   ✅   |
+| Headphone Jack         |   ✅   |
+| Graphics               |   ✅   |
+| Battery                |   ✅   |
+| Card Reader            |   ✅   |
+| Power Management       |   ✅   |
+| Multigesture Trackpad  |   ✅   |
+| Webcam                 |   ✅   |
+| USB A Port             |   ✅   |
+| USB C Port             |   ✅   |
+| HDMI Port              |   ✅   |
+| Facetime and iMessage  |   ✅   |
+| Sleep                  |   ✅   |
+| Hotkeys                |   ✅   |
+| GPU (MX230)            |   ❌   |
+| Fingerprint Sensor     |   ❌   |
+
